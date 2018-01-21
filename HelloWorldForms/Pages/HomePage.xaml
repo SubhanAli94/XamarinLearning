@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="HelloWorldForms.HomePage">
+    <MasterDetailPage.Master>
+        <ContentPage Icon="menu" Title="Menu">
+            <StackLayout Margin="0,20,0,20" Orientation="Vertical">
+                <Label FontSize="26" Text="1001App" HorizontalOptions="CenterAndExpand" />
+                <ListView x:Name="navigationDrawerList" RowHeight="50" SeparatorVisibility="Default" BackgroundColor="White">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout BackgroundColor="White" VerticalOptions="FillAndExpand" Orientation="Horizontal" Padding="20,10,0,10" Spacing="10">
+                                    <Image Source="{Binding Icon}" WidthRequest="30" HeightRequest="30" VerticalOptions="Center" />
+                                    <Label Text="{Binding Title}" FontSize="Small" VerticalOptions="Center" TextColor="Black">
+                                    </Label>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </ContentPage>
+    </MasterDetailPage.Master>
+    <MasterDetailPage.Detail>
+        
+    </MasterDetailPage.Detail>
+</MasterDetailPage>

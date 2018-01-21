@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:HelloWorldForms"
+    xmlns:ctrls="clr-namespace:AsNum.XFControls;assembly=AsNum.XFControls"
+    xmlns:html="clr-namespace:MWX.XamForms.Controls;assembly=MWX.XamForms.HtmlLabel"
+    x:Class="HelloWorldForms.SignUpPage">
+    <ScrollView>
+        <StackLayout>
+            <StackLayout Margin="20,30,20,0">
+                <Label Margin="0,0,0,20" TextColor="{x:Static local:AppColors.GreenColor}" FontAttributes="Bold" FontSize="20">
+                    <Label.Text>
+                Everthing is more fun
+with a profile :) Let's get you yours...
+                </Label.Text>
+                </Label>
+                <StackLayout BackgroundColor="#E0E0E0" Padding="10,5,0,5">
+                    <local:CustomEntry x:Name="firstnameEntry" TextColor="Gray" FontSize="16" Placeholder="*First Name" />
+                </StackLayout>
+                <StackLayout BackgroundColor="#E0E0E0" Padding="10,5,0,5">
+                    <local:CustomEntry TextColor="Gray" FontSize="16" x:Name="lastNameEntry" Placeholder="*Last Name" />
+                </StackLayout>
+                <StackLayout BackgroundColor="#E0E0E0" Padding="10,10,0,10">
+                    <local:BorderlessDatePicker
+                        DateSelected="Handle_DateSelected"
+                        Margin="7,0,0,0"
+                        x:Name="datePicker"
+                        TextColor="Gray" />
+
+                </StackLayout>
+              
+                <StackLayout BackgroundColor="#E0E0E0" Padding="10,5,0,5">
+                    <local:CustomEntry TextColor="Gray" FontSize="16" x:Name="usernameEntry" Placeholder="*UserName" />
+                </StackLayout>
+                <StackLayout BackgroundColor="#E0E0E0" Padding="10,5,0,5">
+                    <local:CustomEntry TextColor="Gray" FontSize="16" x:Name="emailEntry" Keyboard="Email" Placeholder="*Email" />
+                </StackLayout>
+                <StackLayout BackgroundColor="#E0E0E0" Padding="10,5,0,5">
+                    <local:CustomEntry TextColor="Gray" FontSize="16" x:Name="passwordEntry" IsPassword="true" Placeholder="*Enter Your Password" />
+                </StackLayout>
+                <StackLayout BackgroundColor="#E0E0E0" Padding="10,5,0,5">
+                    <local:CustomEntry TextColor="Gray" FontSize="16" IsPassword="true" x:Name="confirmPasswordEntry" Placeholder="*Confirm Your Password" />
+                </StackLayout>
+                <StackLayout BackgroundColor="#E0E0E0" Padding="17,5,0,5">
+                    <local:CustomEntry TextColor="Gray" FontSize="16" x:Name="mobileNumberEntry" Keyboard="Telephone" Placeholder="Mobile Number" />
+                </StackLayout>
+                <StackLayout
+                    x:Name="endStack"
+                    Padding="10,25,0,25"
+                   
+                    Orientation="Horizontal">
+                    <ctrls:CheckBox
+                        ShowLabel="True"
+                        x:Name="checkboxControl"
+                        OnImg="checked_checkbox.png"
+                        OffImg="unchecked_checkbox.png"
+                        Checked="false"
+                        CheckChanged="Handle_CheckChanged"
+                    />
+
+                    <Label 
+                        FontSize="20"
+                        FontAttributes="Bold"
+                        VerticalOptions="Center"
+                        Text="I accept the End User Licence Agreement">
+                        <Label.Effects>
+                            <local:UnderlineEffect/>
+                        </Label.Effects>
+                    </Label>
+
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout
+                HorizontalOptions="FillAndExpand"
+                BackgroundColor="{x:Static local:AppColors.GreenColor}"
+                Padding="0,10,0,10"
+                VerticalOptions="FillAndExpand">
+               <local:ButtonWithoutShadow
+                    BorderRadius="0"
+                    FontSize="20"
+                    VerticalOptions="FillAndExpand"
+                    FontAttributes="Bold"
+                    Text="SUBMIT" 
+                    Clicked="Handle_SubmitClicked"
+                    TextColor="White" 
+                    BackgroundColor="{x:Static local:AppColors.GreenColor}"/>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
