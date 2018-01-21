@@ -62,7 +62,7 @@ Underline effect used to remove underline of entry. This is just for android
 1. Alot of refactoring is required as this project is emerged from HelloWorld learning project.
 2. Missing functionality of Logout
 3. There is not profile screen just a blank page.
-4. While scrolling th list there are jerks, it requires R&D to avoid this. WHat I tried is to used a Nuget to cache images it improved performance to some extent but not much.
+4. While scrolling th list there are jerks, it requires R&D to avoid this. What I tried is to used a Nuget to cache images it improved performance to some extent but not much.
 
 # Time taking tasks
 1. It took me alot while designing Home Screen. Because there is not option nativey to align items in grid for a list of data. 
