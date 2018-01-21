@@ -62,4 +62,4 @@ Underline effect used to remove underline of entry. This is just for android
 # Time taking tasks
 1. It took me alot while designing Home Screen. Because there is not option nativey to align items in grid for a list of data. 
 ### Final Approach
-1. I used ListView with two items in Same ViewCell using Grid. I created a model and pass two items params as references in model's constructor and while iterating the list I used to iterate two position ahead to avoid any dublicate entry in same ListView cell.
+1. I used ListView with two items in Same ViewCell using Grid. I created a model and pass two list items' params as references in model's constructor and while iterating the list I used to iterate two position ahead to avoid any dublicate entry in same ListView cell.
