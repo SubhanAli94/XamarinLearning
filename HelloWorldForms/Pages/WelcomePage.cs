@@ -13,12 +13,15 @@ namespace HelloWorldForms
         private WelcomePage Instance;
         public WelcomePage()
         {
+            //hide navigation bar
             NavigationPage.SetHasNavigationBar(this, false);
             InitializeComponent();
 
+            //set IME options
             usernameEntry.ReturnKeyType = CustomEntry.ReturnKeyTypes.Next;
             passwordEntry.ReturnKeyType = CustomEntry.ReturnKeyTypes.Done;
 
+            //on done/next pressed transfer focus to next field
             usernameEntry.Completed += (sender, e) =>
             {
                 passwordEntry.Focus();
@@ -26,9 +29,11 @@ namespace HelloWorldForms
 
             Instance = this;
 
+            //tap gesture for signup label
             var tapGestureRecognizer = new TapGestureRecognizer();
             tapGestureRecognizer.Tapped += (sender, e) =>
             {
+                //start signup page
                 Navigation.PushAsync(new SignUpPage());
             };
 
@@ -36,6 +41,7 @@ namespace HelloWorldForms
 
         }
 
+        //SignIn Click Handler
         async void Handle_Signin_Clicked(object sender, System.EventArgs e)
         {
             if(isValidData()){
@@ -47,6 +53,7 @@ namespace HelloWorldForms
             }
         }
 
+        //Skip Click Handler
         async void Handle_Skip_Clicked(object sender, System.EventArgs e)
         {
             await Navigation.PushAsync(new SelectFranchizsePage());
@@ -54,6 +61,7 @@ namespace HelloWorldForms
 			passwordEntry.Text = "";
         }
 
+        //Validate form data and show alert
         private bool isValidData()
         {
             SignupModel signUpModel = JsonConvert.DeserializeObject<SignupModel>(Settings.UserSignUpData);
