@@ -65,6 +65,6 @@ Underline effect used to remove underline of entry. This is just for android
 4. While scrolling th list there are jerks, it requires R&D to avoid this. What I tried is to used a Nuget to cache images it improved performance to some extent but not much.
 
 # Time taking tasks
-1. It took me alot while designing Home Screen. Because there is not option nativey to align items in grid for a list of data. 
+1. It took me alot while designing Home Screen. Because there is not any native view available to populate list data in grid. As I use Recyclerview with GridLayoutManager in Android. 
 ### Final Approach
 1. I used ListView with two items in Same ViewCell using Grid. I created a model and pass two list items' params as references in model's constructor and while iterating the list I used to iterate two position ahead to avoid any dublicate entry in same ListView cell.
