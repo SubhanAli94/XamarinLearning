@@ -34,3 +34,13 @@ Underline effect used to remove underline of entry. This is just for android
 ### For Json Parsing
 1. NewtonSoft.Json
 
+# Useful Links
+### For Xamarin:
+1. https://developer.xamarin.com/
+2. Stackoverflow
+
+### For assets
+1. https://material.io/icons/ alongside with others
+
+### For warming up my C#
+https://www.tutorialspoint.com/csharp/index.htm
