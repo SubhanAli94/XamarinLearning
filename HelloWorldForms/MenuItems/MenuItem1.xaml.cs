@@ -70,7 +70,9 @@ namespace HelloWorldForms.MenuItems
         }
 
 
-        //method to load data from api
+        /*
+         * method to load data from api and set in listview after parsing json
+         */
         public async void LoadData()
         {
             var content = "";
