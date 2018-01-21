@@ -58,13 +58,14 @@ Underline effect used to remove underline of entry. This is just for android
 ### For warming up my C#
 1. https://www.tutorialspoint.com/csharp/index.htm
 
+# Time taking tasks
+1. It took me alot while designing Home Screen. Because there is not any native view available to populate list data in grid. As I use Recyclerview with GridLayoutManager in Android. 
+#### Final Approach
+1. I used ListView with two items in Same ViewCell using Grid. I created a model and pass two list items' params as references in model's constructor and while iterating the list I used to iterate two position ahead to avoid any dublicate entry in same ListView cell.
+
+
 # Confessions
 1. Alot of refactoring is required as this project is emerged from HelloWorld learning project.
 2. Missing functionality of Logout
 3. There is not profile screen just a blank page.
 4. While scrolling th list there are jerks, it requires R&D to avoid this. What I tried is to used a Nuget to cache images it improved performance to some extent but not much.
-
-# Time taking tasks
-1. It took me alot while designing Home Screen. Because there is not any native view available to populate list data in grid. As I use Recyclerview with GridLayoutManager in Android. 
-### Final Approach
-1. I used ListView with two items in Same ViewCell using Grid. I created a model and pass two list items' params as references in model's constructor and while iterating the list I used to iterate two position ahead to avoid any dublicate entry in same ListView cell.
