@@ -68,4 +68,4 @@ Underline effect used to remove underline of entry. This is just for android
 1. Alot of refactoring is required as this project is emerged from HelloWorld learning project.
 2. Missing functionality of Logout
 3. There is not profile screen just a blank page.
-4. While scrolling th list there are jerks, it requires R&D to avoid this. What I tried is to used a Nuget to cache images it improved performance to some extent but not much.
+4. While scrolling th list there are jerks, it requires R&D to avoid this. What I tried is to use a Nuget to cache images, it improved performance to some extent but not much.
