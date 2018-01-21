@@ -4,6 +4,15 @@ This is a sample Xamarin learning project. This project is tested just on Androi
 # Project description
 This is a project with cloned screen from 7-Eleven. Screens are Login, SignUp, Location Selection, and a Home Page. Graphics used in this project are taken from different free online resource providing websites.
 
+# How to use it?
+Run on Android smart phone or on emulator. After splash screen there will be a welcome page. On Welcome page there are three options for user to navigate towards Home page, which are following:
+1. Tap Skip - Location Selection Screen - Tap on any box
+2. Tap SignUp -  Fill data in all fields and click checkbox - Location Selection Screen - Tap on any box
+3. Enter username and password if you have any - Location Selection Screen - Tap on any box
+
+## Field validations
+Currently there are only validations for not leaving any field empty.
+
 # Pages Used
 1. ContentPage
 2. MasterDetail Page
