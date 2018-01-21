@@ -4,6 +4,10 @@ This is a sample Xamarin learning project. This project is tested just on Androi
 # Project description
 This is a project with cloned screen from 7-Eleven. Screens are Login, SignUp, Location Selection, and a Home Page. Graphics used in this project are taken from different free online resource providing websites.
 
+# Screenshots
+<img src="https://user-images.githubusercontent.com/22730931/35192432-d6b7dadc-feb3-11e7-93c4-34695488fe63.jpeg" width="240" height="400" /> <img src="https://user-images.githubusercontent.com/22730931/35192429-d659be34-feb3-11e7-9230-74fd38032c2a.jpeg" width="240" height="400" /> <img src="https://user-images.githubusercontent.com/22730931/35192431-d6892bce-feb3-11e7-8b96-d2833b443821.jpeg" width="240" height="400" /> <img src="https://user-images.githubusercontent.com/22730931/35192427-d5e8aca8-feb3-11e7-9f64-14692852be70.jpeg" width="240" height="400" /> <img src="https://user-images.githubusercontent.com/22730931/35192428-d62a7c64-feb3-11e7-88e2-f3c44e2d5658.jpeg" width="240" height="400" /> 
+
+
 # How to use it?
 Run on Android smart phone or on emulator. After splash screen there will be a welcome page. On Welcome page there are three options for user to navigate towards Home page, which are following:
 1. Tap Skip - Location Selection Screen - Tap on any box
