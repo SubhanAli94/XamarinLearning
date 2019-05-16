@@ -1,8 +1,8 @@
 # XamarinLearning
-This is a sample Xamarin learning project. This project is tested just on Android Smart phone.
+This is a sample Xamarin learning project. A cross-platform application tested just on Android Smart phone.
 
 # Project description
-This is a project with cloned screen from 7-Eleven. Screens are Login, SignUp, Location Selection, and a Home Page. Graphics used in this project are taken from different free online resource providing websites.
+This is a project with some of the screens cloned from 7-Eleven. Overall screens are Login, SignUp, Location Selection, and a Home Page. Graphics used in this project are taken from different free online resources' providing websites.
 
 # Screenshots
 <img src="https://user-images.githubusercontent.com/22730931/35192432-d6b7dadc-feb3-11e7-93c4-34695488fe63.jpeg" width="240" height="400" /> <img src="https://user-images.githubusercontent.com/22730931/35192429-d659be34-feb3-11e7-9230-74fd38032c2a.jpeg" width="240" height="400" /> <img src="https://user-images.githubusercontent.com/22730931/35192431-d6892bce-feb3-11e7-8b96-d2833b443821.jpeg" width="240" height="400" /> <img src="https://user-images.githubusercontent.com/22730931/35192427-d5e8aca8-feb3-11e7-9f64-14692852be70.jpeg" width="240" height="400" /> <img src="https://user-images.githubusercontent.com/22730931/35192428-d62a7c64-feb3-11e7-88e2-f3c44e2d5658.jpeg" width="240" height="400" /> 
